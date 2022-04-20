@@ -1,4 +1,10 @@
 We are going to create a database and in this case you can call it any name that you may wish
 1. CREATE A DATABASE
 CREATE DATABASE TEST;
-
+2 CREATE TABLES
+When creating tables, you will have to create tables according to the requirements that you will have.
+CREATE TABLE student
+(
+studID int not null auto_increment,
+studName varchar(50)
+);
