@@ -1,1 +1,4 @@
 We are going to create a database and in this case you can call it any name that you may wish
+1. CREATE A DATABASE
+CREATE DATABASE TEST;
+
