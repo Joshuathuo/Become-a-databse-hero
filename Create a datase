@@ -3,8 +3,11 @@ We are going to create a database and in this case you can call it any name that
 CREATE DATABASE TEST;
 2 CREATE TABLES
 When creating tables, you will have to create tables according to the requirements that you will have.
-CREATE TABLE student
-(
-studID int not null auto_increment,
-studName varchar(50)
-);
+ create table student(
+          stud_id int not null auto_increment,
+          stud_email varchar(30),
+          stud_regno varchar(20) not null,
+          stud_phone varchar(20),
+          primary key(stud_id)
+          ) engine=innodb;
+
