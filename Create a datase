@@ -12,3 +12,22 @@ When creating tables, you will have to create tables according to the requiremen
           ) engine=innodb;
 When creating a table in a database, the format above is used and in between the lines, one may add what specifically they want their tables to have.
 
+After doing all this, you may realize that a certain column in the table needs to be dropped. It is done as follows:
+        
+      DROPPING A COLUMN IN A TABLE
+    alter table college  // altering the table of interest
+   drop column coll_id;  // removing a column in the table of interest
+   
+Moreover, you may need to add columns in a table in your database: See the procedure below.
+
+   ADDING A COLUMN IN AN EXSISTING TABLE 
+    alter table college // altering the table of interest
+    add column col_id int not null auto_increment primary key; // adding a column in the table of interest
+    
+In an instance where you need to reference a primary key in another table as a foreign key, the following syntax is used:
+
+      ADDING A FOREIGN KEY IN AN EXISTING TABLE
+     alter table department // altering the table of interest
+    add fkcol_id int; // adding a column in the table of interest
+
+        
