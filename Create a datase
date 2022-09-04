@@ -10,4 +10,5 @@ When creating tables, you will have to create tables according to the requiremen
           stud_phone varchar(20),
           primary key(stud_id)
           ) engine=innodb;
+When creating a table in a database, the format above is used and in between the lines, one may add what specifically they want their tables to have.
 
