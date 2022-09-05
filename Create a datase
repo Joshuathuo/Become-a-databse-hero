@@ -28,6 +28,13 @@ In an instance where you need to reference a primary key in another table as a f
 
       ADDING A FOREIGN KEY IN AN EXISTING TABLE
      alter table department // altering the table of interest
-    add fkcol_id int; // adding a column in the table of interest
+    add fkcol_id int; // adding a column in the table of interest\
+    
+After the creation of all the tables, you may realize that several tables are linked up with others in a way that a relationship between the tables.
+The syntax is as follows:
 
-        
+CREATING A RELATIONSHIP
+     alter table department   // altering the table of interest
+add constraint college_to_department // add a link for the two tables of interest
+foreign key(fk_col_id)    //include the foreign key(primary key of another table)
+references college(col_id); // refer the foreign key to the primary key of the other table
