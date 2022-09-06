@@ -38,3 +38,5 @@ CREATING A RELATIONSHIP
 add constraint college_to_department // add a link for the two tables of interest
 foreign key(fk_col_id)    //include the foreign key(primary key of another table)
 references college(col_id); // refer the foreign key to the primary key of the other table
+
+The above syntax will be used for every table that requires a relationship.
