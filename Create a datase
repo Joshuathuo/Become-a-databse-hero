@@ -40,3 +40,20 @@ foreign key(fk_col_id)    //include the foreign key(primary key of another table
 references college(col_id); // refer the foreign key to the primary key of the other table
 
 The above syntax will be used for every table that requires a relationship.
+
+Inserting data to a table is the next step in this process and it is done as follows:
+
+INSERTING VALUES INTON THE TABLES:
+
+ALTER table program;
+INSERT into program (prog_id , prog_name , fk_dep_id) 
+values("100","Computing and Informatics" , "3100"),
+("101","Mechanical Engeneering" , "3101"),
+("102","Civil Engeneering" , "3101"),
+("103","Electrical Engeneering" , "3101"),
+("104","Public Health" , "3102"),
+("105","Community Health " , "3102"),
+("106","Business Administration" , "3103"),
+("107","Computer Science and Mathematics" , "3104"),
+("108","Vertirnary Science" , "3104"),
+("109","Meal Hygiene" , "3105"),
