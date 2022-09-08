@@ -61,6 +61,15 @@ values("100","Computing and Informatics" , "3100"),
 In the progress of wanting to know, you may need to set a number in which you may want a clear point of auto-increment. 
 This is demonstrated as shown below
 
+There is also a need to modify a column if it contains some unwanted code as shown below.
+
+MODIFYING A COLUMN/CHANGING A COLUMN POSITION
+
+alter table student modify column stud_name varchar(50)after stud_id;
+alter table student modify column stud_name varchar(50)first;
+
+The above syntax will be able to change the position of a particular column.
+
 SETTING AN AUTO_INCREMENT VALUE FOR A TABLE	*
 		*	ALTER TABLE lecturer auto_increment=1010;
   
