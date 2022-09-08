@@ -57,3 +57,11 @@ values("100","Computing and Informatics" , "3100"),
 ("107","Computer Science and Mathematics" , "3104"),
 ("108","Vertirnary Science" , "3104"),
 ("109","Meal Hygiene" , "3105"),
+
+In the progress of wanting to know, you may need to set a number in which you may want a clear point of auto-increment. 
+This is demonstrated as shown below
+
+SETTING AN AUTO_INCREMENT VALUE FOR A TABLE	*
+		*	ALTER TABLE lecturer auto_increment=1010;
+  
+  The above syntax is a general syntax
