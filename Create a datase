@@ -73,4 +73,4 @@ The above syntax will be able to change the position of a particular column.
 SETTING AN AUTO_INCREMENT VALUE FOR A TABLE	*
 		*	ALTER TABLE lecturer auto_increment=1010;
   
-  The above syntax is a general syntax
+  The above syntax is a general syntax to use at any circumstance.
